@@ -31,6 +31,6 @@ sudo mkdir /var/www
 sudo chown `whoami` /var/www
 cd /var/www
 
-sudo amazon-linux-extras install nginx1
+sudo amazon-linux-extras install -y nginx1
 
 sudo systemctl start nginx.service
