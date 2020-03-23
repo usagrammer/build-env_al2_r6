@@ -1,6 +1,7 @@
 sudo yum -y update
 
-sudo yum -y groupinstall 'Development Tools'
+sudo yum -y install git make gcc-c++ patch libyaml-devel libffi-devel libicu-devel zlib-devel readline-devel
+sudo yum -y install libxml2-devel libxslt-devel ImageMagick ImageMagick-devel openssl-devel libcurl libcurl-devel curl
 
 curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
 sudo yum install -y nodejs
